@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head> 
+    <style>
+        body {
+            background-color: darkgray;
+            margin: 0;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .imagem {
+            padding: 20px;
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        img {
+            width: 150px;
+            height: 150px; 
+            border-radius: 50%; 
+            object-fit: cover; 
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            background-color: tan;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: black;
+            padding: 20px;
+            max-width: 600px;
+            margin: 40px auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+        }
+        iframe {
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+        .video {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Rodrigo Kenzo/Garro</h1>
+    <div class="imagem">
+        <img src="data:image/jpeg;base64,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" alt="eu">
+    </div>
+    <h2 style="text-align: center;">Sou um aspirante a garoto de programa mesmo não gostando de ficar no computador, gosto de jogar bola torço pro Corinthians e sou fã do Rodrigo Garro.</h2>
+    <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/MriHqWdmjho?si=RTR3HErswkJUQU8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+</body>
+</html>
